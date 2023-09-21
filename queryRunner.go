@@ -10,5 +10,9 @@ func selectQuery(connection *sql.DB, query string, params []interface{}) (map[st
 	}
 	defer statement.Close()
 
+	// This is comment no a big thing
+	// This is from second branch
+	
+
 	return nil, nil
 }
